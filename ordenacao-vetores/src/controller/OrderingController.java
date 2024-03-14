@@ -1,10 +1,12 @@
 package controller;
 
-import algoritmos.ordenacao.*;
+import algorithms.order.BubbleSort;
+import algorithms.order.MergeSort;
+import algorithms.order.QuickSort;
 
-public class OrdenacaoVetoresController {
+public class OrderingController {
 
-	public OrdenacaoVetoresController() {
+	public OrderingController() {
 		super();
 	}
 	
@@ -19,6 +21,13 @@ public class OrdenacaoVetoresController {
 		
 		MergeSort mergeSort = new MergeSort();
 		mergeSort.mergeSort(vetor, 0, vetor.length - 1);
+		return vetor;
+	}
+	
+	public int[] quickSort(int[] vetor) {
+		
+		QuickSort quickSort = new QuickSort();
+		quickSort.quickSort(vetor, 0, vetor.length - 1);
 		return vetor;
 	}
 

@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="library/Ordenacao.jar"/>
+	<classpathentry kind="lib" path="library/Ordering.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
