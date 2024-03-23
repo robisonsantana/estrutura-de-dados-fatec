@@ -13,8 +13,9 @@ public class Main {
 		
 		int[] vetor = new int [1500];
 		int tamanho = vetor.length;
+		int number = 1500;
 		for(int i = 0; i < tamanho; i++) {
-			vetor[i] = (int) (Math.random() * 1000);
+			vetor[i] = number--;
 		}
 		
 		//Calcular tempo gasto para ordenar um vetor com Bubble Sort
