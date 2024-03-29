@@ -16,6 +16,7 @@ public class FatController {
 		return calcular();
 	}
 	
+	//Preenchendo pilha
 	private void preencherPilha(int num) {
 		
 		while(num > 0) {
@@ -24,6 +25,7 @@ public class FatController {
 		}
 	}
 	
+	//Calculando fatorial
 	private int calcular() {
 		int fat = 1;
 		while(!p.isEmpty()) {
